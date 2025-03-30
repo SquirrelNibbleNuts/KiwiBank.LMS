@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KiwiBank.LMS.ConsoleUI", "KiwiBank.LMS.ConsoleUI\KiwiBank.LMS.ConsoleUI.csproj", "{9187721E-1FDB-41FB-97A3-164A754CF8A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KiwiBank.LMS.Services", "KiwiBank.LMS.Services\KiwiBank.LMS.Services.csproj", "{81958EE8-4518-426D-BAA0-3E597DF3C4A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KiwiBank.LMS.Repositories.Interfaces", "KiwiBank.LMS.Repositories.Interfaces\KiwiBank.LMS.Repositories.Interfaces.csproj", "{83B7077C-EDCB-423B-8B29-00898BFEEE63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KiwiBank.LMS.Repositories.InMemory", "KiwiBank.LMS.Repositories.InMemory\KiwiBank.LMS.Repositories.InMemory.csproj", "{3561A1CF-32B1-420C-90C9-AE8E4C96A5F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KiwiBank.LMS.Models", "KiwiBank.LMS.Models\KiwiBank.LMS.Models.csproj", "{7B0F556A-BC4D-4438-B4F4-7472A93D755C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KiwiBank.LMS.UnitTest", "KiwiBank.LMS.UnitTest\KiwiBank.LMS.UnitTest.csproj", "{C0629144-F8B9-4CB3-92E6-61FD9526D0C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9187721E-1FDB-41FB-97A3-164A754CF8A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9187721E-1FDB-41FB-97A3-164A754CF8A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9187721E-1FDB-41FB-97A3-164A754CF8A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9187721E-1FDB-41FB-97A3-164A754CF8A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81958EE8-4518-426D-BAA0-3E597DF3C4A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81958EE8-4518-426D-BAA0-3E597DF3C4A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81958EE8-4518-426D-BAA0-3E597DF3C4A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81958EE8-4518-426D-BAA0-3E597DF3C4A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83B7077C-EDCB-423B-8B29-00898BFEEE63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83B7077C-EDCB-423B-8B29-00898BFEEE63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83B7077C-EDCB-423B-8B29-00898BFEEE63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83B7077C-EDCB-423B-8B29-00898BFEEE63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3561A1CF-32B1-420C-90C9-AE8E4C96A5F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3561A1CF-32B1-420C-90C9-AE8E4C96A5F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3561A1CF-32B1-420C-90C9-AE8E4C96A5F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3561A1CF-32B1-420C-90C9-AE8E4C96A5F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B0F556A-BC4D-4438-B4F4-7472A93D755C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B0F556A-BC4D-4438-B4F4-7472A93D755C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B0F556A-BC4D-4438-B4F4-7472A93D755C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B0F556A-BC4D-4438-B4F4-7472A93D755C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0629144-F8B9-4CB3-92E6-61FD9526D0C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0629144-F8B9-4CB3-92E6-61FD9526D0C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0629144-F8B9-4CB3-92E6-61FD9526D0C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0629144-F8B9-4CB3-92E6-61FD9526D0C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3386069-4EC2-4FD0-8533-FD2A6B7ACFE0}
+	EndGlobalSection
+EndGlobal
